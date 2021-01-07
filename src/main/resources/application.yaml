@@ -1,0 +1,13 @@
+bot:
+  name: Bot for Habar
+  token: 1361805153:AAFuPjhN-G3ph_sKkFt4sCaO6bXsapx478E
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-176-34-114-78.eu-west-1.compute.amazonaws.com:5432/d96k4it6hv1q7t?user=shrcmqxzsdvyvl&password=b3f892546a991173428a34c7c6b575a6330bc7120e49577bfe755b9bb7692a9a
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: never
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+     ddl-auto: update
